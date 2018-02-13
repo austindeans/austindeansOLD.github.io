@@ -1,0 +1,16 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Testing123"
+      href: test.html
+output:
+  html_document:
+    theme: sandstone
+    highlight: espresso
+      
+#right: or left: determines the justification

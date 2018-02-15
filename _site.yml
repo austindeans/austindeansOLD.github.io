@@ -1,16 +1,18 @@
-name: "my-website"
+name: my-website
 navbar:
-  title: "My Website"
+  title: My Website
   right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Testing123"
-      href: test.html
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Important Info!!!
+    href: test.html
 output:
   html_document:
     theme: sandstone
     highlight: espresso
-      
-#right: or left: determines the justification
+    lib_dir: site_libs
+    self_contained: no
+output_dir: _site
+

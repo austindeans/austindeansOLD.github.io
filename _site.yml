@@ -6,7 +6,9 @@ navbar:
     href: index.html
   - text: About
     href: about.html
-  - text: Important Info!!!
+  - text: Ternary
+    href: tern.html
+  - text: Misc
     href: test.html
 output:
   html_document:
